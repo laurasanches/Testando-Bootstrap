@@ -1,0 +1,143 @@
+<!doctype html>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <title>Oficina bootstrap</title>
+    </head>
+
+    <body>
+
+        <!-- menu de navegação  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aplicativo</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Galeria de vídeos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Familiar</a></li>
+                                <li><a class="dropdown-item" href="#">Empresarial</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Seu pet</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- menu de navegação  -->
+
+        <div class="container">
+            <h1 class="bg-danger text-light mt-5 mb-3 p-5 display-5">Oficina Bootstrap</h1>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+            <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum odio facere deleniti, fugiat ea commodi, quaerat quas dolorem magni inventore porro, sequi architecto. Nesciunt maxime provident atque aliquid a dolor culpa perferendis similique omnis voluptas aperiam minus, fuga quam odit natus eius delectus obcaecati. Nihil aliquam earum odio illo quos.
+            </p>
+
+            <a href="http://www.fiap.com.br" class="btn btn-danger">Veja na Fiap</a>
+
+            <figure class="my-3">
+                <img src="./outras/pexels-suvan-chowdhury-144428.jpg" alt="Solo de guitarra" class="img-fluid">
+            </figure>
+        </div>
+
+        <div class="container my-3">
+            <h2 class="display-4 my-2">Melhores bandas do mundo</h2>
+
+            <!-- 1o card -->
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                    <div class="card" >
+                        <img src="./cards/card1.jpg" class="card-img-top" alt="Led Zeppelin">
+                        <div class="card-body">
+                            <h5 class="card-title">Led Zeppelin</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                content.</p>
+                            <a href="discos.html" class="btn btn-primary">Discografia</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- fim 1o card -->
+
+                <!-- 2o card -->
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                            <div class="card">
+                                <img src="./cards/card2.jpg" class="card-img-top" alt="The Beatles">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Beatles</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <a href="discos.html" class="btn btn-primary">Discografia</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- fim 2o card -->
+
+                <!-- 3o card -->
+        
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                                <div class="card">
+                                    <img src="./cards/card3.jpg" class="card-img-top" alt="Rolling Stone">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rolling Stone</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                            card's
+                                            content.</p>
+                                        <a href="discos.html" class="btn btn-primary">Discografia</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                <!-- fim 3o card -->
+
+                <!-- 4o card -->
+        
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                            <div class="card">
+                                <img src="./cards/card4.jpg" class="card-img-top" alt="Queen">
+                                <div class="card-body">
+                                    <h5 class="card-title">Queen</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <a href="discos.html" class="btn btn-primary">Discografia</a>
+                                </div>
+                            </div>
+                        </div>
+
+                <!-- fim 4o card -->
+
+            </div>
+        </div>
+
+    </body>
+</html>
